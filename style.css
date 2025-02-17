@@ -4,14 +4,33 @@ body {
     background-color: rgb(0, 0, 0);
     font-family: 'Poppins';
     color: aliceblue;
+    margin-left: 75px;
+}
+nav{
+    padding: 10px 20px;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-weight: bold;
+}   
+.nav-list li{
+    list-style: none;
+    padding: 10px;
 }
 
+.nav-list
 .nome {
     font-size: 200%;
 }
 
+.nav-list a:hover{
+    text-decoration: underline 2.5px;
+}
+
 .pres {
-    color: rgb(227, 224, 55);
+    color: rgb(88, 72, 255);
     font-size: 250%;
 }
 
@@ -21,4 +40,48 @@ body {
 
 .lore {
     font-size: 150%;
+}
+
+.hire {
+    font-family: Poppins;
+
+    border-width: 3px;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: black;
+    background-color: rgb(88, 72, 255);
+
+    padding: 10px;
+    border-radius: 7px;
+    border-color: rgb(88, 72, 255);
+    margin-top: 50px;
+}
+
+.fale {
+    font-family: Poppins;
+
+    border-width: 3px;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: rgb(88, 72, 255);
+    background-color: transparent;
+
+    padding: 10px;
+    border-radius: 7px;
+    border-color: rgb(88, 72, 255);
+    margin-left: 20px;
+}
+
+.hire:hover {
+    box-shadow: 2px 2px 10px rgb(88, 72, 255);
+}
+
+.fale:hover {
+    box-shadow: 2px 2px 10px rgb(88, 72, 255);
 }
