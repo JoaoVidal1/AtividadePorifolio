@@ -7,6 +7,9 @@ body {
     margin-left: 75px;
 }
 nav{
+    position: relative;
+    margin-right: 40px;
+    bottom: 100px;
     padding: 10px 20px;
 }
 .nav-list{
@@ -20,10 +23,15 @@ nav{
     padding: 10px;
 }
 
-.nav-list
-.nome {
-    font-size: 200%;
+header h1 {
+    position: relative;
 }
+
+.home{
+    color: rgb(88, 72, 255);
+}
+
+.nav-list
 
 .nav-list a:hover{
     text-decoration: underline 2.5px;
